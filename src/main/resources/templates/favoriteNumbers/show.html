@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Show Page</title>
+</head>
+
+<body>
+  <h1>This is your favorite number:</h1>
+  <p th:text="${number}">Favorite Number Here</p>
+  <h2>Here's your favorite number from the ModelAttribute:</h2>
+  <p th:text="${favoriteNumber.getNumber()}"></p>
+</body>
+</html>
