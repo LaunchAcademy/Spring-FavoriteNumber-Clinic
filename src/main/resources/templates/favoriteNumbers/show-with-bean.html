@@ -7,7 +7,7 @@
 <body>
 
 <h1> This is your favorite number</h1>
-<p th:text="${number}">Favorite Number</p>
-
+<p th:text="${favoriteNumber.number}">Favorite Number</p>
+<p>Is odd: <span th:text="${favoriteNumber.getIsOdd()}"></span> </p>
 </body>
 </html>
